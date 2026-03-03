@@ -1,0 +1,14 @@
+# Ignore everything
+*
+
+# Allow directories (so git can traverse them)
+!*/
+
+# Allow only .cpp files
+!**/*.cpp
+
+# Allow .gitignore itself
+!.gitignore
+
+# OS files
+.DS_Store
